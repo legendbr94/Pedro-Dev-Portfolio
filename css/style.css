@@ -127,6 +127,10 @@ ul {
     margin: 0;
 }
 
+html{
+    display: grid;
+}
+
 .span-green-text{
     color: #50fa7b;
 }
