@@ -1,0 +1,349 @@
+.navbar-container{
+    background: #191a21;
+    display: flex;
+    justify-content: center;
+}
+
+.logo, .navbar-content{
+    align-items: center;
+    display: flex;
+}
+.logo img {
+    width: 4rem;
+}
+
+.logo span {
+    color:#fff;
+    font: 800 3rem Raleway;
+    margin-left: 1rem;
+}
+
+.navbar-content {
+    flex-wrap: wrap;
+    height: 75px;
+    justify-content: space-around;
+    width: 80%;
+}
+.navbar-content ul li {
+    margin: 0 1rem;
+}
+.navbar-content ul {
+    display: flex;
+    list-style: none;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.navbar-content ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-content ul li a {
+    color: #fff;
+    font: 800 1.6rem Raleway;
+    text-decoration: none;
+}
+
+.home-container{
+    align-items: center;
+    background: #282a36;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0;
+}
+
+
+.home-content{
+    grid-column-gap: 2rem;
+    -webkit-column-gap: 2rem;
+    column-gap: 2rem;
+    display: grid;
+    grid-template-areas:
+        "text img"
+        "btn img"
+        "icons icons";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr 2rem;
+    grid-row-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.home-text {
+    color: white;
+    font: 800 4rem Raleway;
+    z-index: 1;
+}
+
+.social-icons {
+    grid-area: icons;
+}
+.social-icons, .social-icons a {
+    color: white;
+}
+
+.social-icons {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+}
+
+.home-btn-git {
+    grid-area: btn;
+}
+
+
+
+.home-btn-git {
+    height: 85px;
+    width: 185px;
+}
+
+.home-btn-git {
+    align-items: center;
+    background: white;
+    border-color: transparent;
+    border-radius: .5rem;
+    color:black;
+    display: flex;
+    font: 800 2rem Raleway;
+    justify-content: center;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.span-green-text{
+    color: #50fa7b;
+}
+.span-pink-text{
+    color: palevioletred;
+}
+.span-blue-text{
+    color: #48C5Ce;
+}
+
+body{
+    font: 400 1.6rem Raleway;
+    background-color: #48C5Ce;
+}
+
+.menu{
+    list-style: none;
+}
+
+
+.root-container{
+  
+    margin: auto;
+}
+
+.title{
+font-size: 26px;
+}
+
+.home-container{
+    background-color: #282a36;
+}
+.about-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #50fa7b;
+    padding: 10rem 0;
+}
+
+.about-container{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;   
+   }
+
+.about-btn-cv{
+    grid-area: btn;
+    align-items: center;
+    background: white;
+    border-color: transparent;
+    border-radius: .5rem;
+    color: #202121;
+    display: flex;
+    font: 800 2rem Raleway;
+    justify-content: center;
+    height: 75px;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+.about-btn-cv {
+    height: 65px;
+    width: 185px;
+}
+
+.skills-container {
+    padding: 5rem 2rem;
+    background: white;
+}
+
+.skills-title {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skills-description {
+    color: rgba(0,0,0,.3);
+    margin: 0 3rem 3rem;
+    text-align: center;
+}
+
+.skills-content {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2rem;
+}
+
+.projects-container{    
+background: burlywood;
+padding: 5rem 2rem;
+}
+
+.projects-title{
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.projects-description {
+    color: rgba(0,0,0,.2);
+    margin: 0 3rem 3rem;
+    text-align: center;
+}
+
+.projects-content {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2rem;
+}
+
+.contact-container{
+    background-color:#48C5Ce;
+    padding: 5rem 4rem;
+}
+
+
+.contact-content {
+    display: grid;
+    grid-template-areas: "infos form";
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.contact-infos-list {
+    grid-area: infos;
+}
+
+
+.contact-infos-list {
+    width: 600px;
+    
+}
+
+.contact-infos-list {
+    background: hsla(0,0%,100%,.2);
+    border: 3px solid white;
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 850px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.contact-title {
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact-description {
+    color: hsla(0,0%,100%,.7);
+    margin: 0 3rem 3rem;
+    text-align: center;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-areas: "infos form";
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.logo-whatsapp{
+    width: 40px;
+}
+.whatsapp-info-text{
+    text-decoration: none;
+    color: white;
+
+}
+.email-text{
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.description{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+}
